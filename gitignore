@@ -1,0 +1,32 @@
+# .gitignore
+
+# Environment files
+.env
+*.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Virtual environment
+venv/
+*/venv/
+*.venv/
+ENV/
+env/
+
+# Python specific
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Distribution / packaging
+.Python
+build/
